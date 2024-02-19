@@ -1,0 +1,158 @@
+/* for navbar */
+.nav-logo{
+    height: 5rem;
+    width: 6rem;
+}
+.btn-login{
+    border: 2px solid #112d4e;
+    background-color: #112d4e;
+    color: white;
+}
+.navbar-brand{
+    color: #112d4e;
+}
+.btn-signup{
+    border: 2px solid #112d4e;
+    color: #112d4e;
+}
+.ey-nav{
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    background-color: white;
+}
+.search-bar{
+    border: 1px solid #112d4e;
+}
+.btn-login:hover{
+    background-color: #1b4574;
+    color: white;
+}
+.btn-signup:hover{
+    background-color: #112d4e;
+    color: white;
+}
+
+.nav-link {
+
+    color: #112d4e;
+}
+.nav-hover{
+    color: #112d4e;
+}
+.nav-hover:hover{
+    scale: 1.04;
+}
+.profile-icon{
+    height: 5rem;
+    width: 5rem;
+}
+.login{
+    display: block;
+}
+.not-login{
+    display: none;
+}
+.dropdown-profile::after{
+    content: none;
+}
+.bookmark-btn{
+    color: #112d4e;
+}
+.notif-btn{
+    color: #112d4e;
+}
+.home-active{
+    scale: 1.03;
+    position: relative;
+}
+.home-active::after{
+    content: "";
+    width: 20px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #112d4e;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* for footer */
+.ftr-ey{
+    background-color: #112d4e;
+}
+.news-field{
+    background: #eaeaea;
+    margin: 20px 20px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.in-box-news{
+    width: 90%;
+    background: transparent;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    padding: 15px 15px;
+}
+.input-icon-news{
+    margin-left: 15px;
+    color: #112d4e;
+}
+.btn-subscribe{
+    margin: 20px 20px 0;
+    border-radius: 20px;
+    border: 2px solid #f5f7fa;
+    background-color: #f5f7fa;
+    width: 80%;
+    color: #112d4e;
+    height: 44px;
+}
+.btn-subscribe:hover{
+    background-color: #dbddde;
+    color: #112d4e;
+}
+.news-txt{
+    color: #f5f7fa; 
+}
+.news-txt-p{
+    color: #f5f7fa;
+    text-indent: 20px;
+}
+.footer-text{
+    color: white;
+}
+.footer-text:hover{
+    color: white;
+    scale: 1.05;
+}
+.footer-logo{
+    color: white;
+    font-size: 1.5rem;
+}
+/* for newsletter validation */
+.newsletter-error{
+    border: 2px solid red;
+    background-color: rgb(253, 201, 201);
+}
+.newsletter-success{
+    border: 2px solid yellowgreen;
+    background-color: rgb(214, 252, 214);
+}
+@media only screen and (max-width: 768px){
+    .navbar-brand{
+        font-size: 1rem;
+    }
+    .ey-logo{
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+}
+
+.dropdown-profile {
+    text-decoration: none !important;
+    color: #112d4e;
+    font-size: 20px;
+}
+

@@ -1,0 +1,56 @@
+.create-title{
+    font-size: 4rem;
+    color: white;
+    position: relative;
+}
+.create-title::after{
+    content: "";
+    width: 150px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title-container{
+    background-color: #112d4e;
+}
+.manage-thumbnail{
+    width: auto;
+    height: 4rem;
+}
+.btn-delete{
+    color: red;
+    font-size: 1rem;
+}
+.btn-delete:hover{
+    color: rgb(121, 8, 8);
+    scale: 1.03;
+}
+.btn-edit{
+    color: #112d4e;
+    font-size: 1rem;
+}
+.btn-edit:hover{
+    color: #183b64;
+    scale: 1.03;
+}
+.title-blog{
+    color: #112d4e;
+    font-size: 1.5rem;
+}
+.table-row{
+    border: 1px solid #112d4e62;
+    background-color: #eaeaea;
+}
+.table-container{
+    min-height: 500px;
+}
+.flash-messages{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+}

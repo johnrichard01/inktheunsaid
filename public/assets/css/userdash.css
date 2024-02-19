@@ -1,0 +1,40 @@
+header {
+    background-color: #112d4e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.activities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.activity-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 300px;
+}
+
+.activity-card h2 {
+    color: #333;
+}
+
+.activity-card p {
+    color: #666;
+}
+
+.btn {
+    background-color: #112d4e;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 1rem;
+}

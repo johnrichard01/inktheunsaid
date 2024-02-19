@@ -1,0 +1,68 @@
+.section-title{
+    background-color: #112d4e;
+}
+.section-header{
+    color: white;
+    font-size: 3rem;
+}
+th{
+    text-align:center;
+    padding:15px;
+    color:white;
+    background:#112d4e;
+}
+.no-icon{
+    color: #868686;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+.btn-action{
+    color: #112d4e;
+}
+.btn-action::after{
+    content: none;
+}
+.table-border{
+    position: relative;
+    border: 1px solid #868686;
+    width: 90%;
+    height: 500px;
+    overflow: auto;
+}
+.table-header{
+    position: sticky;
+    top: -2px;
+    z-index: 100;
+    border-color:1px solid #112d4e;
+}
+.table-content{
+    border-top: 1px solid #868686;
+    border-bottom: 1px solid #868686;
+    background: white;
+}
+.btn-delete{
+    color: red;
+}
+
+.btn-view{
+    color: #112d4e;
+}
+.table-container{
+    position: relative;
+}
+.btn-addAdmin{
+    position: absolute;
+    bottom: 3px;
+    right: 80px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #112d4e;
+}
+.btn-addAdmin:hover{
+    color: white;
+    background-color: #1f4673;
+    scale: 1.03;
+}

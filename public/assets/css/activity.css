@@ -1,0 +1,35 @@
+.activity-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.unread {
+    background-color: #e6f7ff;
+}
+
+.read {
+    background-color: #f2f2f2;
+}
+
+.delete-btn,
+.leave-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.delete-btn {
+    background-color: #ff6666;
+    color: #fff;
+}
+
+.leave-btn {
+    background-color: #4caf50;
+    color: #fff;
+}

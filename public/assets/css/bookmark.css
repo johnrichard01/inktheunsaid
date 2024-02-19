@@ -1,0 +1,148 @@
+.profile-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-category {
+    margin-top: 30px;
+}
+
+.blog-category h2 {
+    margin-bottom: 10px;
+}
+
+.blog-table-container {
+    overflow-y: auto;
+    position: relative;
+}
+
+.blog-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.blog-table th, .blog-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    height: 40px;
+}
+
+.blog-table th {
+    position: sticky;
+    top: 0;
+    background-color: #112d4e;
+    color: white;
+}
+
+.blog-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.blog-item:hover {
+    background-color: #f5f5f5;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.description-cell {
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.blog-category h2 {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.blog-table th:nth-child(1) {
+    width: 20%;
+}
+
+.blog-table th:nth-child(2) {
+    width: 20%;
+}
+
+.blog-table th:nth-child(3) {
+    width: 30%;
+}
+
+.blog-table th:nth-child(4) {
+    width: 30%;
+}
+
+.favorite--header {
+    font-size: 4rem;
+    color: white;
+    position: relative;
+}
+
+.favorite--header::after{
+    content: "";
+    width: 150px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title-container {
+    background-color: #112d4e;
+}
+
+.categories--h2 {
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 10px #112d4e;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    color: #112d4e;
+    padding: 20px 0 20px;
+}
+
+.categories--h2::after{
+    content: "";
+    width: 150px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.zero--booked {
+    margin: 250px 0 250px;
+}
+
+.add--btn {
+    background-color: #112d4e;
+    color: white;
+}
+
+.delete--btn {
+    border: none;
+    color:  rgb(194, 8, 8);
+    background-color: white;
+}
+.delete--btn:hover {
+    color:  rgb(194, 8, 8);
+}
+.blog--image {
+    width: 60px;
+    height: 60px;
+}

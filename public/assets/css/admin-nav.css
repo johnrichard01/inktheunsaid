@@ -1,0 +1,122 @@
+/* custom off canvas */
+.admin-nav{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #f5f7fa;
+    color: #f5f7fa;
+}
+.admin-nav:hover{
+    background-color: #f5f7fa;
+    color: #112d4e;
+}
+.div-divider{
+    position: absolute;
+    width: 1px;
+    background-color: rgba(247, 127, 0, 0.3);
+    height: 50%; 
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.profile-display{
+    border-radius: 50%;
+}
+.profile-display:hover{
+    scale: 1.05;
+    background-color: #eaeaea;
+}
+.profile-display::after{
+    content: none;
+}
+.custom-offcanvas{
+    max-width: 250px;
+    background-color: #112d4e;
+}
+.offcanvas-title{
+    color:#f5f7fa;
+}
+.mess-main{
+    position: relative;
+}
+.mess-counter{
+    position: absolute;
+    display: block;
+    top: -8px;
+    right: 8px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 8px;
+    color: #f5f7fa;
+}
+/* for navbar */
+.nav-logo{
+    height: 5rem;
+    width: 6rem;
+}
+.btn-login{
+    border: 2px solid #112d4e;
+    background-color: #112d4e;
+    color: white;
+}
+.navbar-brand{
+    color: #112d4e;
+}
+.btn-signup{
+    border: 2px solid #112d4e;
+    color: #112d4e;
+}
+.ey-nav{
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    background-color: white;
+}
+.search-bar{
+    border: 1px solid #112d4e;
+}
+.btn-login:hover{
+    background-color: #1b4574;
+    color: white;
+}
+.btn-signup:hover{
+    background-color: #112d4e;
+    color: white;
+}
+
+.nav-link {
+
+    color: #112d4e;
+}
+.nav-hover{
+    color: #112d4e;
+}
+.nav-hover:hover{
+    scale: 1.04;
+}
+.profile-icon{
+    height: 5rem;
+    width: 5rem;
+}
+.login{
+    display: block;
+}
+.not-login{
+    display: none;
+}
+.dropdown-profile::after{
+    content: none;
+}
+.bookmark-btn{
+    color: #112d4e;
+}
+.notif-btn{
+    color: #112d4e;
+}
+.dash-container{
+    background-color: #eaeaea;
+    min-height: 750px;
+    max-width: 85%;
+}
+.dash-expand{
+    max-width: 100%;
+}

@@ -1,0 +1,91 @@
+.contact--container {
+    background-color: #112d4e;
+}
+.inTouch {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact--info {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.material-symbols-outlined {
+    font-size: 50px;
+    border: none;
+    border-radius: 100px;
+    background-color: aliceblue;
+    color: #112d4e;
+    padding: 10px;
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+    background-color: #112d4e;
+}   
+
+.address--info, .phone--info, .mail--info {
+    margin-top: 30px;
+}
+
+.message--us {
+    color: #112d4e;
+    display: flex;
+    justify-content: center;
+}
+
+.message--feedback {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.contact--form {
+    padding: 10px;
+    color: #1b4574;
+}
+
+.btn--message {
+    margin-top: 30px;
+    background-color: #112d4e;
+    color: aliceblue;
+}
+
+.btn--message:hover {
+    background-color: #1b4574;
+    color: white;
+}
+
+.form--wrapper {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-error{
+    border: 1px solid red;
+    background-color: rgb(248, 219, 219);
+}
+.error-message{
+    display: none;
+}
+.error-show{
+    display: block;
+    color: red;
+    text-align: center;
+}
+.flash-messages{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+}

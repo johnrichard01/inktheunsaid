@@ -1,0 +1,53 @@
+.prof--head{
+    color: #112d4e;
+    font-weight: bolder;
+
+}
+.avatar-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.edit-profile-form{
+    background: rgb(219,221,222);
+    background: linear-gradient(0deg, rgba(219,221,222,1) 0%, rgba(17,45,78,1) 100%);
+    padding: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #112d4e;
+    color: #112d4e;
+    font-weight: 500;
+
+}
+
+.update--btn {
+    background-color: #112d4e;
+    color: white;
+}
+
+.update--btn:hover {
+    background-color: aliceblue;
+    color: #112d4e;
+}
+
+.submit--update {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+
+.avatar-input {
+    margin-top: 50px;
+    background-color: #112d4e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.flash-messages{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+}
